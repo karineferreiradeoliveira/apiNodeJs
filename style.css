@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    margin: 0 auto;
+}
+.main{
+    position:relative;
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid #9b9999;
+    padding: 10px;
+
+}
