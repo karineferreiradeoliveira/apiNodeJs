@@ -1,7 +1,5 @@
 
-//" "   ('')
 
-// ATENÇÃO: rodar comando  npm run devStart para ligar servidor
 const axios = require ('axios')
 const express = require ('express')
 const app = express ()
@@ -14,7 +12,7 @@ const app = express ()
 
 //rotas - caminhos para o server ir 
 app.get('/home', (req, res) => {
-   res.send(" <h1> Olá mundo, se inscreva no canal </h1> ")//vai escrever no html
+   res.send(" <h1> Olá mundo, se inscreva no canal </h1> ")
 })
 
 //rota com resposta no formato json
@@ -33,8 +31,8 @@ app.get('/place', async(req, res) => {
 
     try {
         const {data} = await axios  ('https://jsonplaceholder.typicode.com/users')
-       return res.json(data [
-            2
+       return res.json(data [2
+    
         ]
         )
 
